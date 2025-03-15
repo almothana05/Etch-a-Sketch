@@ -1,0 +1,40 @@
+
+
+/* div{ */
+    /* border: 4px solid red; */
+/* } */
+#btnDiv{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 2px;
+}
+#selection{
+    display: flex;
+    height: 100px;
+    width: 200px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#bigDiv{
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1;
+    height: 100%;
+    width: 100%;
+    border: 2px solid rebeccapurple;
+}
+.row{
+    flex: 1;
+    display: flex;
+
+}
+
+.square{
+    flex: 1 ;
+    border: 1px solid black;
+}
